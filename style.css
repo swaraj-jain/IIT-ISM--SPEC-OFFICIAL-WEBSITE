@@ -169,12 +169,13 @@ hr{
     width: 100%;
     display: flex;
     border: 1px solid #888;
-    box-shadow: 2px 4px 6px #555;
+    box-shadow: 2px 2px 10px #4d4d4d;
     margin-bottom: 20px;
     transition: transform 0.2s;
 }
 .page-wrapper .activity-section:hover{
     transform: scale(1.02);
+    box-shadow: 3px 3px 12px #2d2d2d;
 }
 .page-wrapper .activity-section:nth-child(odd){
     flex-direction: row-reverse;
@@ -219,6 +220,25 @@ hr{
     color: darkblue;
     text-align: center;
 }
+.test111 a{
+    font-size: large;
+}
+marquee{
+    height: 220px;
+}
+
+.isfmh{
+    font-size: 2.5rem;
+    color: darkblue;
+    text-align: center;
+    text-transform: uppercase;
+}
+#sm{
+    font-size: 2rem;
+    text-align: right;
+    cursor: pointer;
+}
+
 
 @media (max-width: 767.98px){
     .page-wrapper .activity-section{
@@ -241,5 +261,13 @@ hr{
     }
     .fh{
         font-size: x-large;
+    }
+    .test111 a{
+        font-size: medium;
+        margin-bottom: 0em;
+        padding-bottom: 0em;
+    }
+    .isfmh{
+        font-size: 1.6rem;
     }
 }
