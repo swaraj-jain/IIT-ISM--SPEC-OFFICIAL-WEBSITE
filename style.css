@@ -11,12 +11,15 @@
     background: white;
 }
 .header-title{
-    color: darkblue;
+    color: #003262;
     padding: 0;
     margin: 0;
     font-size: 2rem;
     margin-top: 5px;
     margin-right: 5px;
+}
+html{
+    scroll-behavior: smooth;
 }
 body{
     margin: 0;
@@ -36,7 +39,7 @@ body{
 /*Navbar*/
 
 .navbar{
-    background-color: darkblue;
+    background-color: #003262;
     box-shadow: 0 4px 10px black;
 }
 .nav-item{
@@ -47,9 +50,9 @@ body{
     border-radius: 10px;
 }
 .nav-item a:hover{
-    background-color: white;
+    background-color: lightgray;
     border-radius: 10px;
-    color: darkblue !important;
+    color: #003262 !important;
     transition-duration: 700ms;
 }
 .nav-item a{
@@ -125,7 +128,7 @@ body{
 .contact-heading{
     text-align: center;
     font-size: 2.3rem;
-    color: darkblue;
+    color: #003262;
 }
 .contact-heading:hover{
     -ms-text-underline-position: alphabetic;
@@ -214,10 +217,10 @@ hr{
     margin: 5px;
 }
 .page-wrapper .info-links-wrapper .info-links a{
-    color: darkblue;
+    color: #003262;
 }
 .fh{
-    color: darkblue;
+    color: #003262;
     text-align: center;
 }
 .test111 a{
@@ -229,7 +232,7 @@ marquee{
 
 .isfmh{
     font-size: 2.5rem;
-    color: darkblue;
+    color: #003262;
     text-align: center;
     text-transform: uppercase;
 }
@@ -238,6 +241,84 @@ marquee{
     text-align: right;
     cursor: pointer;
 }
+#devloper{
+    color:white;
+    font-weight: 700;
+    transition-duration: 200ms;
+}
+#devloper:hover{
+    color:gray;
+    transition-duration: 200ms;
+    text-decoration: none;
+}
+#mainboard{
+    text-align: center;
+    color: #003262;
+}
+
+
+
+
+.footer-wrapper{
+    background-color:#003262;
+    color: whitesmoke;
+    box-shadow: 0 -2px 5px #3d3d3d;
+    border-bottom: solid lightgray 1px;
+}
+.footer-col{
+    text-align: center;
+}
+.copyright{
+    width: 100%;
+    padding: 7px 0;
+    margin: 0;
+    text-align: center;
+    background-color: #003262;
+    color: white;
+}
+.gotop{
+    font-size: 22px;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: #003262;
+    color: white;
+    bottom: 3%;
+    right: 3%;
+    text-align: center;
+    border-radius: 50%;
+    text-decoration: none;
+    line-height: 40px;
+    display: none;
+    border: 0.5px solid white;
+}
+.gotop:hover{
+    color: white;
+}
+  table, th, td {
+    border: 1px solid #003262;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+  }
+  th {
+    text-align: left;
+    background-color: #003262;
+    color: white;
+    border-color: white;
+  }
+  tr:hover{
+      background: #d2d2d2;
+      cursor: pointer;
+      
+  }
+
+  @media (max-width:567.98px){
+      td,th{
+          font-size: 10px;
+      }
+  }
 
 
 @media (max-width: 767.98px){
@@ -270,4 +351,289 @@ marquee{
     .isfmh{
         font-size: 1.6rem;
     }
+    
 }
+
+
+.acc-main {
+    padding: 40px 0px 80px;
+    color: #003262;
+  }
+  .container {
+    
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+  }
+  .pockets-main h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #111;
+    margin: 0 0px 35px;
+  }
+  .intro-cont h3{
+    font-size: 35px;
+    font-weight: 600;
+    color: #111;
+    margin: 50px 0;
+  }
+  .kind h2{
+    text-align:center;
+    font-size: 45px;
+    font-weight: 600;
+    color: #111;
+    margin: 50px 0 30px;
+  }
+  /*accordion*/
+  .accordion-main{
+    margin-bottom:36px;
+  }
+  .accordion-main:last-child .accordion_body{
+    padding-bottom: 0;
+  }
+  .accordion_head {
+    background-color: #003262;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border:1px solid 29705a;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+  }
+  .accordion_body {
+    background: transparent;
+    border: 1px solid #003262;
+    font-size: 18px;
+    text-align: center;
+    padding: 5%;
+  }
+  .accordion_body img{
+    width: 100%;
+    max-width: 230px;
+    margin-bottom: 30px;
+  }
+  .accordion_body p {
+    margin: 0px;
+    color: #000000;
+  }
+  .accordion_body h3,
+  .div-bott h3{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 15px 0;
+    color: #1e352e;
+  }
+  .div-bott h3{
+  font-size: 35px;
+  }
+  .div-bott{
+  text-align:center;
+  }
+  .div-bott p{
+  font-size:24px;
+  }
+  .plusminus {
+    float: right;
+    font-size: 36px;
+    margin-top: -9px;
+  }
+  .coll-back{
+    background-color: #fff;
+    color: #111;
+    border:1px solid #111;
+  }
+  .hr-clc{
+    height: 2px;
+    background: #111;
+    margin-top: 22px;
+    width: 17px;
+    padding: 0;
+    border: 0;
+    margin-left: -20px;
+  }
+  
+  /*media queries*/
+  @media (min-width:992px) and (max-width:1100px){
+    .pockets-main p {
+      font-size: 22px;
+      width: 684px;
+      margin:0 auto;
+      margin-bottom: 20px !important;
+    }
+    .accordion_body {
+      padding: 35px 40px 5px;
+    }
+    .accordion_body img {
+      max-width: 205px;
+      margin-bottom: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px){
+    .pockets-main {
+      padding: 30px 15px;
+    }
+    .pockets-main h1 {
+      font-size: 45px;
+      margin: 0 0px 20px;
+    }
+    .pockets-main p {
+      font-size: 20px !important;
+      margin-bottom: 20px !important;
+      width: 600px;
+      margin: 0 auto;
+    }
+    .intro-cont h3,
+    .div-bott h3{
+      font-size: 30px;
+      margin: 35px 0;
+    }
+    .kind h2 {
+      font-size: 30px;
+      margin: 35px 0 30px;
+    }
+    .accordion_head {
+      font-size: 20px;
+      padding: 11px 18px;
+    }
+    .plusminus {
+      font-size: 27px;
+      margin-top: -5px;
+    }
+    .accordion-main {
+      margin-bottom: 24px;
+    }
+    .hr-clc {
+      margin-top: 16px;
+      width: 15px;
+      margin-left: -15px;
+    }
+    .accordion_body {
+      font-size: 18px;
+      padding: 30px 40px 5px;
+    }
+    .accordion_body img {
+      width: 100%;
+      max-width: 185px;
+      margin-bottom: 20px;
+    }
+    .accordion_body h3 {
+      font-size: 24px;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767px){
+    .pockets-main {
+      padding: 35px 15px;
+    }
+    .pockets-main h1 {
+      font-size: 40px;
+      margin: 0 0px 30px;
+    }
+    .pockets-main p {
+      font-size: 18px !important;
+      margin-bottom: 20px !important;
+      width: 400px;
+      margin: 0 auto;
+    }
+    .intro-cont h3,
+    .div-bott h3{
+      font-size: 26px;
+      width: 400px;
+      margin: 30px auto;
+      line-height: 1.2 !important;
+    }
+    .div-bott h3{
+    width:unset;
+    }
+    .kind h2 {
+      font-size: 26px;
+      margin: 30px 0 30px;
+    }
+    .accordion_head {
+      font-size: 20px;
+      padding: 10px 15px;
+    }
+    .accordion-main {
+      margin-bottom: 25px;
+    }
+    .plusminus {
+      font-size: 30px;
+      margin-top: -5px;
+    }
+    .accordion_body {
+      padding: 30px 25px 5px;
+    }
+    .accordion_body img {
+      max-width: 170px;
+      margin-bottom: 20px;
+    }
+    .hr-clc {
+      margin-top: 17px;
+      width: 16px;
+    }
+    .accordion_body h3 {
+      font-size: 22px;
+      margin: 15px 0;
+    }
+  }
+  @media (max-width:575px){
+    .pockets-main{
+      padding:15px 0px;
+    }
+    .pockets-main h1 {
+      font-size: 30px;
+      margin: 0 0px 15px;
+    }
+    .pockets-main p {
+      font-size: 16px !important;
+      margin-bottom: 15px !important;
+    }
+    .intro-cont h3,
+    .kind h2,
+    .div-bott h3{
+      margin: 30px 0px;
+      line-height: normal !important;
+      font-size:24px;
+    }
+    .accordion_head {
+      font-size: 18px;
+      padding: 8px 12px
+    }
+    .plusminus {
+      font-size: 27px;
+      margin-top: -7px;
+    }
+    .accordion-main {
+      margin-bottom: 22px;
+    }
+    .accordion_body {
+      font-size: 18px;
+      padding: 20px 20px 5px;
+    }
+    .accordion_body img {
+      max-width: 150px;
+      margin-bottom: 20px;
+    }
+    .accordion_body h3 {
+      font-size: 18px;
+      margin: 10px 0;
+      line-height: normal;
+    }
+    .hr-clc {
+      height: 2px;
+      margin-top: 16px;
+      width: 15px;
+      margin-left: -15px;
+    }
+  }

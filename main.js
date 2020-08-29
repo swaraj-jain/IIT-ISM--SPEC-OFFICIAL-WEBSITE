@@ -24,3 +24,15 @@ setInterval(function() {
         i =  0;
       }
 }, 2000);
+
+
+
+$(window).scroll(function(){
+  var height = $(window).scrollTop();
+  if (height > 260) {
+    $('.gotop').fadeIn();
+  }else {
+    $('.gotop').fadeOut();
+    }
+ });
+
