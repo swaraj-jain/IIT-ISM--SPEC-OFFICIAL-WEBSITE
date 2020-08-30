@@ -231,7 +231,8 @@ marquee{
 }
 
 .isfmh{
-    font-size: 2.5rem;
+    font-size: 2.0rem;
+    margin-top: 2%;
     color: #003262;
     text-align: center;
     text-transform: uppercase;
@@ -303,10 +304,14 @@ marquee{
     padding: 15px;
   }
   th {
-    text-align: left;
+    text-align: center;
     background-color: #003262;
     color: white;
     border-color: white;
+  }
+  td{
+      color: #003262;
+      
   }
   tr:hover{
       background: #d2d2d2;
@@ -314,49 +319,10 @@ marquee{
       
   }
 
-  @media (max-width:567.98px){
-      td,th{
-          font-size: 10px;
-      }
-  }
-
-
-@media (max-width: 767.98px){
-    .page-wrapper .activity-section{
-        flex-wrap: wrap;
-    }
-    .page-wrapper .activity-section .activity-image-wrapper{
-        width: 100%;
-    }
-    .page-wrapper .activity-section .activity-section-image{
-        width: 90%;
-        margin-left: 5%;
-    }
-    .page-wrapper .activity-section .activity-content{
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .page-wrapper .activity-section  li{
-        font-size: medium;
-        
-    }
-    .fh{
-        font-size: x-large;
-    }
-    .test111 a{
-        font-size: medium;
-        margin-bottom: 0em;
-        padding-bottom: 0em;
-    }
-    .isfmh{
-        font-size: 1.6rem;
-    }
-    
-}
 
 
 .acc-main {
-    padding: 40px 0px 80px;
+    padding: 10px 0px 80px;
     color: #003262;
   }
   .container {
@@ -417,6 +383,7 @@ marquee{
     font-size: 18px;
     text-align: center;
     padding: 5%;
+    text-align: left;
   }
   .accordion_body img{
     width: 100%;
@@ -637,3 +604,80 @@ marquee{
       margin-left: -15px;
     }
   }
+
+  .accordion_body ol li h4{
+      text-decoration: underline;
+      font-weight: 700;
+      margin-top: 1%;
+      margin-bottom: 0%;
+  }
+  .accordion_body ol li table{
+      margin-top: 2%;
+      margin-bottom: 2%;
+  }
+  @media (max-width:567.98px){
+    td,th{
+        font-size: 10px;
+    }
+}
+
+#totalarea{
+    width: 100%;
+}
+
+#onlythist td{
+    font-size: 17px;
+}
+#onlythist th{
+    font-size: 18px;
+}
+
+@media (max-width: 767.98px){
+  .page-wrapper .activity-section{
+      flex-wrap: wrap;
+  }
+  .page-wrapper .activity-section .activity-image-wrapper{
+      width: 100%;
+  }
+  .page-wrapper .activity-section .activity-section-image{
+      width: 90%;
+      margin-left: 5%;
+  }
+  .page-wrapper .activity-section .activity-content{
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  .page-wrapper .activity-section  li{
+      font-size: medium;
+      
+  }
+  .fh{
+      font-size: x-large;
+  }
+  .test111 a{
+      font-size: medium;
+      margin-bottom: 0em;
+      padding-bottom: 0em;
+  }
+  .isfmh{
+      font-size: 1.6rem;
+  }
+  .accordion_body{
+      font-size: 12px;
+      padding-left: 0%;
+      padding-right: 3%;
+  }
+  .accordion_body ol{
+      padding-left: 7%;
+  }
+  .accordion_body ol li h4{
+    font-size: 15px;
+    }
+
+    #onlythist td{
+        font-size: 11px;
+    }
+    #onlythist th{
+        font-size: 12px;
+    }
+}
