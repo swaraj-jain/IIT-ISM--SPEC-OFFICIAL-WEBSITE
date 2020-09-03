@@ -1,23 +1,4 @@
-.header-logo{
-    margin: 0;
-    padding: 1%;
-    margin-bottom: 1%;
-}
-.header-logo img{
-    height: 120%;
-}
-.header-title-wrapper{
-    margin: 10px;
-    background: white;
-}
-.header-title{
-    color: #003262;
-    padding: 0;
-    margin: 0;
-    font-size: 2rem;
-    margin-top: 5px;
-    margin-right: 5px;
-}
+
 html{
     scroll-behavior: smooth;
 }
@@ -29,11 +10,7 @@ body{
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
 }
-.header{
-    /* border: 1px solid blueviolet; */
-    background-color: white;
-    display: flex;
-}
+
 
 
 /*Navbar*/
@@ -680,4 +657,42 @@ marquee{
     #onlythist th{
         font-size: 12px;
     }
+}
+
+
+/*==============================*/
+
+
+.header{
+  /* border: 1px solid blueviolet; */
+  background-color: white;
+  display: flex;
+}
+.header-logo{
+  /* border: 1px solid blue; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
+}
+#header-logo-image{
+  width: 75%;
+  max-width: 200px;
+  float: right;
+}
+.header-title-wrapper{
+  padding-left: 0;
+}
+.header-title{
+  color: #003262;
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+}
+
+
+@media (max-width: 767.98px){
+  #header-logo-image{
+      float: left;
+  }
 }
