@@ -1,0 +1,21 @@
+td{
+    padding-left:6%;
+  
+  }
+  @media (max-width: 1000px){
+    td{
+      padding-left:3%;
+    
+    }
+  }
+  @media (max-width: 767.98px){
+    #header-logo-image{
+        float: left;
+    }
+    #profimgs{
+      width: 60px;
+    }
+    td{
+      padding: 10px;
+    }
+  }
