@@ -729,11 +729,17 @@ marquee{
  box-shadow: 1px 1px 2px #d3d3d3, 0 0 20px #dfdfdf, 0 0 5px #fff;
  box-shadow: 4px 4px 10px #003262;
  border-radius: 3%;
+ transition-duration: 400ms;
+ z-index: -20;
  
 }
 #gallery .img-container:hover{
   box-shadow: 1px 1px 2px #d3d3d3, 0 0 5px #dfdfdf, 0 0 5px #fff;
   box-shadow: 2px 2px 7px #003262;
+  transform: scale(1.15);
+  float: initial;
+  transition-duration: 400ms;
+  z-index: 1000;
 }
 
 #gallery img {
@@ -744,13 +750,14 @@ object-fit: cover;
  transition: all 0.3s ease-in-out;
  filter: brightness(85%);
   color: white;
-
+  z-index:-20;
  
 }
 #gallery img:hover{
-  transform: scale(1.3);
   filter: brightness(100%);
   filter: blur(0);
+  float: initial;
+  z-index: 1000;
 }
 #gallery .row .col-md-4{
   margin-bottom: 2%;
@@ -770,4 +777,16 @@ object-fit: cover;
   #gallery .row .col-md-4{
     margin-bottom: 0%;
   }
+}
+
+
+
+
+.gallery__grid .row:nth-child(n+2) {
+  /* Adding some margin to create a bit of space under rows */
+  margin-top: 1rem;
+}
+.gallery__column {
+  /* In case the image is bigger than the column */
+  overflow: hidden;
 }
